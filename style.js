@@ -81,6 +81,8 @@ show.innerHTML=` <div class="card" style="width: 18rem;">
         else
         {
             alert("Data not found")
+            document.getElementById('f3').reset();
+            
         }
     }
 
