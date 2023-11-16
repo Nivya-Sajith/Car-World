@@ -1,0 +1,67 @@
+#stor
+{
+    color: green;
+}
+#ser
+{
+    color: blue;
+}
+#b3
+{
+    color: red;
+}
+#stor:hover
+{
+background-color:green;
+color: white;
+
+
+}
+#b3:hover
+{
+color: white;
+background-color: red;
+}
+
+#b4:hover{
+  color: white;
+  background-color: black;  
+}
+#ser:hover
+{
+    color: white;
+    background-color: blue;
+}
+
+
+@media only screen and (max-width: 430px) {
+    
+body{
+    background-color: rgb(218, 245, 236);
+}
+#hed{
+    text-align: left;
+}
+    .row{
+        display: flex;
+        
+        flex-direction: column;
+    }
+    .col
+    {
+        margin: 50px;
+        margin-left: 20px;
+    }
+    .col-3
+    {
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    #dlast
+    {
+        /* margin-left: 0px; */
+        width: 250px;
+    }
+
+    
+}
