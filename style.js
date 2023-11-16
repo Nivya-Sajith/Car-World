@@ -62,6 +62,7 @@ show.innerHTML=` <div class="card" style="width: 18rem;">
         else
         {
             alert("Key not exist!!")
+            document.getElementById('f2').reset();
         }
     }
 
@@ -75,6 +76,11 @@ show.innerHTML=` <div class="card" style="width: 18rem;">
         {
            localStorage.removeItem(delet.value)
             alert("Item removed")
+            document.getElementById('f3').reset();
+        }
+        else
+        {
+            alert("Data not found")
         }
     }
 
@@ -83,6 +89,7 @@ show.innerHTML=` <div class="card" style="width: 18rem;">
     function clearitem()
     {
         localStorage.clear();
+        alert("All data cleared" )
     }
 function closebtn()
 {
